@@ -13,7 +13,7 @@ app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);
   });
 
-app.post('/node/sha', (req, res) => {
+app.post('/node/sha256', (req, res) => {
     var a = req.body.num1;
     var b = req.body.num2;
 
